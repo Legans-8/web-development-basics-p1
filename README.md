@@ -3,7 +3,7 @@ Laboratory for web fundamentals, focusing on HTML5, CSS3, and modern layout tech
 
 Tools & Technologies:
 
-Languages: HTML5, CSS3.
+Languages: HTML5, CSS3, and JavaScript.
 
 Editor: Visual Studio Code.
 
