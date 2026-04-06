@@ -512,3 +512,54 @@ figcaption {
     color: #8d6e63; 
     margin: 0 10px;
 }
+@media (max-width: 768px) {
+    .encabezado-principal {
+        padding: 2rem 1rem;
+    }
+    
+    .encabezado-principal h1 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .seccion-contenido h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+
+    ul.horizontal {
+        flex-wrap: wrap;
+    }
+
+    ul.horizontal li {
+        flex: 1 1 auto;
+    }
+
+    ul.horizontal li a {
+        padding: 12px 10px;
+        font-size: 0.75rem;
+        text-align: center;
+        border: 1px solid rgba(244, 235, 208, 0.1);
+    }
+
+    .seccion-contenido {
+        margin: 30px auto;
+        padding: 15px;
+    }
+
+    .subcategoria {
+        padding: 20px 15px;
+    }
+
+    .caja-aside {
+        padding: 25px 15px;
+    }
+
+    .pie-pagina-principal {
+        padding: 25px 15px;
+    }
+
+    .tarjetas-grandes {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    }
+}
